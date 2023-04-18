@@ -1,0 +1,30 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="contao/languages/en/tl_module.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_module.faqAccordion.0">
+        <source>Accordion settings</source>
+        <target>Akkordeon-Einstellungen</target>
+      </trans-unit>
+      <trans-unit id="tl_module.faqAccordion.1">
+        <source>Here you can select the accordion behavior.</source>
+        <target>Hier können Sie das Akkordeon-Verhalten auswählen.</target>
+      </trans-unit>
+      <trans-unit id="tl_module.faqAccordion.single_open">
+        <source>First open (single mode)</source>
+        <target>Erstes offen (Einzelmodus)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.faqAccordion.single_closed">
+        <source>All closed (single mode)</source>
+        <target>Alle geschlossen (Einzelmodus)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.faqAccordion.multi_open">
+        <source>All open (multi mode)</source>
+        <target>Alle offen (Multimodus)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.faqAccordion.multi_closed">
+        <source>All closed (multi mode)</source>
+        <target>Alle geschlossen (Multimodus)</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archives>
+
+  <archive identifier="gText">
+    <field title="identifier">gText</field>
+    <children>
+      <child alias="alignment">
+        <field title="alias">alignment</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="alignmentXS">
+        <field title="alias">alignmentXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="alignmentS">
+        <field title="alias">alignmentS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="alignmentM">
+        <field title="alias">alignmentM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="alignmentL">
+        <field title="alias">alignmentL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="alignmentXL">
+        <field title="alias">alignmentXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="textColor">
+        <field title="alias">textColor</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="gLink">
+    <field title="identifier">gLink</field>
+    <children>
+      <child alias="linkColor">
+        <field title="alias">link-color</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+
+  <archive identifier="cLayout">
+    <field title="identifier">cLayout</field>
+    <children>
+      <child alias="box">
+        <field title="alias">box</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cGridColumn">
+    <field title="identifier">cGridColumn</field>
+    <children>
+      <child alias="col">
+        <field title="alias">col</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="colXS">
+        <field title="alias">colXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="colS">
+        <field title="alias">colS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="colM">
+        <field title="alias">colM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="colL">
+        <field title="alias">colL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="colXL">
+        <field title="alias">colXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cGridOffset">
+    <field title="identifier">cGridOffset</field>
+    <children>
+      <child alias="offset">
+        <field title="alias">offset</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="offsetXS">
+        <field title="alias">offsetXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="offsetS">
+        <field title="alias">offsetS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="offsetM">
+        <field title="alias">offsetM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="offsetL">
+        <field title="alias">offsetL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="offsetXL">
+        <field title="alias">offsetXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cGridOrder">
+    <field title="identifier">cGridOrder</field>
+    <children>
+      <child alias="order">
+        <field title="alias">order</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="orderXS">
+        <field title="alias">orderXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="orderS">
+        <field title="alias">orderS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="orderM">
+        <field title="alias">orderM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="orderL">
+        <field title="alias">orderL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="orderXL">
+        <field title="alias">orderXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cGridAlignment">
+    <field title="identifier">cGridAlignment</field>
+    <children>
+      <child alias="gridSelfAlignment">
+        <field title="alias">gridSelfAlignment</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="gridSelfAlignmentXS">
+        <field title="alias">gridSelfAlignmentXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="gridSelfAlignmentS">
+        <field title="alias">gridSelfAlignmentS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="gridSelfAlignmentM">
+        <field title="alias">gridSelfAlignmentM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="gridSelfAlignmentL">
+        <field title="alias">gridSelfAlignmentL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="gridSelfAlignmentXL">
+        <field title="alias">gridSelfAlignmentXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cSpacing">
+    <field title="identifier">cSpacing</field>
+    <children>
+      <child alias="topSpacing">
+        <field title="alias">topSpacing</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="topSpacingXS">
+        <field title="alias">topSpacingXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="topSpacingS">
+        <field title="alias">topSpacingS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="topSpacingM">
+        <field title="alias">topSpacingM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="topSpacingL">
+        <field title="alias">topSpacingL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="topSpacingXL">
+        <field title="alias">topSpacingXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="bottomSpacing">
+        <field title="alias">bottomSpacing</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="bottomSpacingXS">
+        <field title="alias">bottomSpacingXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="bottomSpacingS">
+        <field title="alias">bottomSpacingS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="bottomSpacingM">
+        <field title="alias">bottomSpacingM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="bottomSpacingL">
+        <field title="alias">bottomSpacingL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="bottomSpacingXL">
+        <field title="alias">bottomSpacingXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="leftSpacing">
+        <field title="alias">leftSpacing</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="leftSpacingXS">
+        <field title="alias">leftSpacingXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="leftSpacingS">
+        <field title="alias">leftSpacingS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="leftSpacingM">
+        <field title="alias">leftSpacingM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="leftSpacingL">
+        <field title="alias">leftSpacingL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="leftSpacingXL">
+        <field title="alias">leftSpacingXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="rightSpacing">
+        <field title="alias">rightSpacing</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="rightSpacingXS">
+        <field title="alias">rightSpacingXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="rightSpacingS">
+        <field title="alias">rightSpacingS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="rightSpacingM">
+        <field title="alias">rightSpacingM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="rightSpacingL">
+        <field title="alias">rightSpacingL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="rightSpacingXL">
+        <field title="alias">rightSpacingXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cPadding">
+    <field title="identifier">cPadding</field>
+    <children>
+      <child alias="padding">
+        <field title="alias">padding</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="paddingXS">
+        <field title="alias">paddingXS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="paddingS">
+        <field title="alias">paddingS</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="paddingM">
+        <field title="alias">paddingM</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="paddingL">
+        <field title="alias">paddingL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="paddingXL">
+        <field title="alias">paddingXL</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+  <archive identifier="cBackground">
+    <field title="identifier">cBackground</field>
+    <children>
+      <child alias="color">
+        <field title="alias">color</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="image">
+        <field title="alias">image</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="attachment">
+        <field title="alias">attachment</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="repeat">
+        <field title="alias">repeat</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="size">
+        <field title="alias">size</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="posx">
+        <field title="alias">posx</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="posy">
+        <field title="alias">posy</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
+</archives>

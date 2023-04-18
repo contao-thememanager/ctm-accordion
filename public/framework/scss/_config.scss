@@ -1,0 +1,25 @@
+// Accordion
+$accordion-icon:                              "+" !default;
+$accordion-icon-active:                       "−" !default;
+
+$accordion-icon-font-size:                    1.875rem !default;
+$accordion-icon-font-family:                  var(--font-family) !default;
+
+$accordion-icon-line-height:                  1 !default;
+$accordion-icon-font-weight:                  $font-weight-regular !default;
+
+$accordion-icon-width:                        auto !default;
+$accordion-icon-height:                       auto !default;
+$accordion-icon-offset:                       .5rem !default;
+$accordion-icon-side:                         left !default;
+
+$accordion-icon-border-radius:                0 !default;
+$accordion-icon-border-width:                 0 !default;
+$accordion-icon-border-style:                 none !default;
+
+$accordion-icon-border-color:                 var(--clr-primary) !default;
+$accordion-icon-background:                   transparent !default;
+$accordion-icon-color:                        var(--clr-primary) !default;
+
+$accordion-content-margin:                    1rem 0 0 !default;
+$accordion-content-padding:                   0 !default;
