@@ -1,5 +1,5 @@
 <?php
-  $GLOBALS['TL_JAVASCRIPT'][] = '/bundles/contaothememanageraccordion/assets/dist/accordion.js';
+  $GLOBALS['TL_JAVASCRIPT'][] = '/bundles/contaothememanageraccordion/assets/dist/accordion.js|static';
 ?>
 
 <script>
