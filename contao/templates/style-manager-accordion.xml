@@ -38,7 +38,7 @@
     <field title="identifier">gLink</field>
     <children>
       <child alias="linkColor">
-        <field title="alias">link-color</field>
+        <field title="alias">linkColor</field>
         <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
       </child>
     </children>
