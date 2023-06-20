@@ -3,6 +3,7 @@
   $insideClasses = $sm->prepare('cSpacing')->format(' %s') .
                    $sm->prepare('cPadding')->format(' %s') .
                    $sm->prepare('cBackground')->format(' %s');
+  $gridClasses   = $sm->prepare('cGridGutter')->format(' %s');
 
   if ('article_id' === $this->accordionGroup) {
       $this->accordionGroup.='_'.$this->pid;
@@ -16,5 +17,5 @@
       <?= $this->headline ?>
     </div>
 
-    <div class="<?= $this->accordion ?> grid acc-content">
+    <div class="<?= $this->accordion ?> grid<?= $gridClasses ?> acc-content">
       <div class="inside">

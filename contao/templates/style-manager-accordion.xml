@@ -169,6 +169,15 @@
       </child>
     </children>
   </archive>
+  <archive identifier="cGridGutter">
+    <field title="identifier">cGridGutter</field>
+    <children>
+      <child alias="templateGutter">
+        <field title="alias">templateGutter</field>
+        <field title="contentElements">a:1:{i:0;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
   <archive identifier="cSpacing">
     <field title="identifier">cSpacing</field>
     <children>
