@@ -341,4 +341,41 @@
       </child>
     </children>
   </archive>
+
+  <archive identifier="eHeadline">
+    <field title="id">2050</field>
+    <field title="title">Headlines</field>
+    <field title="identifier">eHeadline</field>
+    <field title="groupAlias">Element</field>
+    <field title="sorting">4500</field>
+    <children>
+      <child alias="hlType">
+        <field title="pid">2050</field>
+        <field title="sorting">5100</field>
+        <field title="alias">hlType</field>
+        <field title="title">Headline</field>
+        <field title="description">Here you can select the headline for this component title.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:2:"h1";s:5:"value";s:2:"h1";}i:1;a:2:{s:3:"key";s:2:"h2";s:5:"value";s:2:"h2";}i:2;a:2:{s:3:"key";s:2:"h3";s:5:"value";s:2:"h3";}i:3;a:2:{s:3:"key";s:2:"h4";s:5:"value";s:2:"h4";}i:4;a:2:{s:3:"key";s:2:"h5";s:5:"value";s:2:"h5";}i:5;a:2:{s:3:"key";s:2:"h6";s:5:"value";s:2:"h6";}}</field>
+        <field title="cssClass">separator</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+      <child alias="hlStyle">
+        <field title="pid">2050</field>
+        <field title="sorting">5200</field>
+        <field title="alias">hlStyle</field>
+        <field title="title">Class</field>
+        <field title="description">Here you can select the headline class for this component.</field>
+        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:2:"h1";s:5:"value";s:2:"h1";}i:1;a:2:{s:3:"key";s:2:"h2";s:5:"value";s:2:"h2";}i:2;a:2:{s:3:"key";s:2:"h3";s:5:"value";s:2:"h3";}i:3;a:2:{s:3:"key";s:2:"h4";s:5:"value";s:2:"h4";}i:4;a:2:{s:3:"key";s:2:"h5";s:5:"value";s:2:"h5";}i:5;a:2:{s:3:"key";s:2:"h6";s:5:"value";s:2:"h6";}}</field>
+        <field title="chosen">1</field>
+        <field title="blankOption">1</field>
+        <field title="passToTemplate">1</field>
+        <field title="extendContentElement">1</field>
+        <field title="contentElements">a:2:{i:0;s:15:"accordionSingle";i:1;s:14:"accordionStart";}</field>
+      </child>
+    </children>
+  </archive>
 </archives>

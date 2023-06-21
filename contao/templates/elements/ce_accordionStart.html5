@@ -4,6 +4,7 @@
                    $sm->prepare('cPadding')->format(' %s') .
                    $sm->prepare('cBackground')->format(' %s');
   $gridClasses   = $sm->prepare('cGridGutter')->format(' %s');
+  $hlType        = $sm->get('eHeadline',['hlType']) ?: '';
 
   if ('article_id' === $this->accordionGroup) {
       $this->accordionGroup.='_'.$this->pid;
@@ -14,7 +15,11 @@
 
   <div class="inside<?= $insideClasses ?>">
     <div class="<?= $this->toggler ?>"<?php if ($this->headlineStyle): ?> style="<?= $this->headlineStyle ?>"<?php endif; ?>>
-      <?= $this->headline ?>
+      <?php if ($hlType): ?>
+        <<?=$hlType.$sm->prepare('eHeadline',['hlStyle'])->format(' class="%s"')?>><?= $this->headline ?></<?=$hlType?>>
+      <?php else: ?>
+        <?= $this->headline ?>
+      <?php endif; ?>
     </div>
 
     <div class="<?= $this->accordion ?> grid<?= $gridClasses ?> acc-content">
