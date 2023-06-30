@@ -30,7 +30,7 @@
   // Accordion-start offset for inner elements
   $acc-c-m: standardize($accordion-content-margin);
   &.grid > .inside {
-    --h-gap-off:calc(-1 * var(--i-gtr));
+    --h-gap-off:calc(var(--gtr-x) * -.5);
     margin: nth($acc-c-m, 1)
             calc(var(--h-gap-off,0) + #{nth($acc-c-m,2)})
             nth($acc-c-m,3)
