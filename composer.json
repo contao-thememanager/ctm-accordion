@@ -1,6 +1,6 @@
 {
   "name": "contao-thememanager/ctm-accordion",
-  "type": "contao-bundle",
+  "type": "symfony-bundle",
   "description": "Accordion integration for Contao Theme-Manager",
   "keywords": ["contao","theme","accordion"],
   "homepage": "https://www.oveleon.de/thememanager.html",
