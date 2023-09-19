@@ -9,20 +9,20 @@
             'default'                 => '"+"',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'"+"', 'maxlength'=>32, 'decodeEntities'=>true, 'tl_class'=>'w50 clr'],
+            'eval'                    => ['placeholder'=>'"+"', 'maxlength'=>255, 'decodeEntities'=>true, 'tl_class'=>'w50 clr'],
         ],
         'accordion-icon-active' => [
             'default'                 => '"−"',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-active'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'"−"', 'maxlength'=>32, 'decodeEntities'=>true, 'tl_class'=>'w50'],
+            'eval'                    => ['placeholder'=>'"−"', 'maxlength'=>255, 'decodeEntities'=>true, 'tl_class'=>'w50'],
         ],
         'accordion-icon-font-size' => [
             'default'                 => 'a:2:{s:4:"unit";s:3:"rem";s:5:"value";s:5:"1.875";}',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-font-size'],
             'inputType'               => 'inputUnit',
             'options'                 => $GLOBALS['CTM_CSS_UNITS'],
-            'eval'                    => ['placeholder'=>'1.875rem', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>32, 'tl_class'=>'w50 clr'],
+            'eval'                    => ['placeholder'=>'1.875rem', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>255, 'tl_class'=>'w50 clr'],
         ],
         'accordion-icon-font-family' => [
             'default'                 => 'var(--font-family)',
@@ -35,13 +35,13 @@
             'default'                 => '1',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-line-height'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'1', 'rgxp'=>'digit', 'maxlength'=>32, 'tl_class'=>'w50 clr'],
+            'eval'                    => ['placeholder'=>'1', 'rgxp'=>'digit', 'maxlength'=>255, 'tl_class'=>'w50 clr'],
         ],
         'accordion-icon-font-weight' => [
             'default'                 => '$font-weight-regular',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-font-weight'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'$font-weight-regular', 'maxlength'=>32, 'tl_class'=>'w50'],
+            'eval'                    => ['placeholder'=>'$font-weight-regular', 'maxlength'=>255, 'tl_class'=>'w50'],
         ],
 
         'accordion-icon-width' => [
@@ -49,21 +49,21 @@
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-width'],
             'inputType'               => 'inputUnit',
             'options'                 => $GLOBALS['CTM_CSS_UNITS'],
-            'eval'                    => ['placeholder'=>'auto', 'includeBlankOption'=>true, 'maxlength'=>32, 'tl_class'=>'w25 clr'],
+            'eval'                    => ['placeholder'=>'auto', 'includeBlankOption'=>true, 'maxlength'=>255, 'tl_class'=>'w25 clr'],
         ],
         'accordion-icon-height' => [
             'default'                 => 'a:2:{s:4:"unit";s:0:"";s:5:"value";s:4:"auto";}',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-height'],
             'inputType'               => 'inputUnit',
             'options'                 => $GLOBALS['CTM_CSS_UNITS'],
-            'eval'                    => ['placeholder'=>'auto', 'includeBlankOption'=>true, 'maxlength'=>32, 'tl_class'=>'w25'],
+            'eval'                    => ['placeholder'=>'auto', 'includeBlankOption'=>true, 'maxlength'=>255, 'tl_class'=>'w25'],
         ],
         'accordion-icon-offset' => [
             'default'                 => 'a:2:{s:4:"unit";s:3:"rem";s:5:"value";s:3:"0.5";}',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-offset'],
             'inputType'               => 'inputUnit',
             'options'                 => $GLOBALS['CTM_CSS_UNITS'],
-            'eval'                    => ['placeholder'=>'0.5rem', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>32, 'tl_class'=>'w25'],
+            'eval'                    => ['placeholder'=>'0.5rem', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>255, 'tl_class'=>'w25'],
         ],
         'accordion-icon-side' => [
             'default'                 => 'left',
@@ -85,7 +85,7 @@
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-border-width'],
             'inputType'               => 'inputUnit',
             'options'                 => $GLOBALS['CTM_CSS_UNITS'],
-            'eval'                    => ['placeholder'=>'0', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>32, 'tl_class'=>'w25'],
+            'eval'                    => ['placeholder'=>'0', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>255, 'tl_class'=>'w25'],
         ],
         'accordion-icon-border-style' => [
             'default'                 => 'none',
@@ -99,19 +99,19 @@
             'default'                 => 'var(--clr-primary)',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-border-color'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard clr'],
+            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard clr'],
         ],
         'accordion-icon-background' => [
             'default'                 => 'transparent',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-background'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'transparent', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+            'eval'                    => ['placeholder'=>'transparent', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
         ],
         'accordion-icon-color' => [
             'default'                 => 'var(--clr-primary)',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-color'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>64, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
         ],
 
         'accordion-content-margin' => [
