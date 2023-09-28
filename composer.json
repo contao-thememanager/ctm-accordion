@@ -3,7 +3,7 @@
   "type": "symfony-bundle",
   "description": "Accordion integration for Contao Theme-Manager",
   "keywords": ["contao","theme","accordion"],
-  "homepage": "https://www.oveleon.de/thememanager.html",
+  "homepage": "https://www.contao-thememanager.com/",
   "authors": [
     {
       "name": "Oveleon",
