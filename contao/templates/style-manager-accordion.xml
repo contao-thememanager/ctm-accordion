@@ -378,4 +378,37 @@
       </child>
     </children>
   </archive>
+  <archive identifier="eImage">
+    <field title="identifier">eImage</field>
+    <children>
+      <child alias="scale">
+        <field title="alias">scale</field>
+        <field title="contentElements">a:1:{i:0;s:15:"accordionSingle";}</field>
+      </child>
+      <child alias="aspectRatio">
+        <field title="alias">aspectRatio</field>
+        <field title="contentElements">a:1:{i:0;s:15:"accordionSingle";}</field>
+      </child>
+      <child alias="width">
+        <field title="alias">width</field>
+        <field title="contentElements">a:1:{i:0;s:15:"accordionSingle";}</field>
+      </child>
+      <child alias="imgAlign">
+        <field title="alias">imgAlign</field>
+        <field title="contentElements">a:1:{i:0;s:15:"accordionSingle";}</field>
+      </child>
+      <child alias="objectFit">
+        <field title="alias">objectFit</field>
+        <field title="contentElements">a:1:{i:0;s:15:"accordionSingle";}</field>
+      </child>
+      <child alias="objectPosX">
+        <field title="alias">objectPosX</field>
+        <field title="contentElements">a:1:{i:0;s:15:"accordionSingle";}</field>
+      </child>
+      <child alias="objectPosY">
+        <field title="alias">objectPosY</field>
+        <field title="contentElements">a:1:{i:0;s:15:"accordionSingle";}</field>
+      </child>
+    </children>
+  </archive>
 </archives>
