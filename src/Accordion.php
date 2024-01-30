@@ -93,7 +93,7 @@ class Accordion extends Backend
                 // Check whether info exists and replace it
                 if (Message::hasInfo())
                 {
-                    $session = System::getContainer()->get('session');
+                    $session = System::getContainer()->get('request_stack')->getSession();
 
                     if (!$session->isStarted())
                     {
