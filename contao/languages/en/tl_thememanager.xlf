@@ -1,8 +1,17 @@
 <?xml version="1.0" ?><xliff version="1.1">
   <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en">
     <body>
-      <trans-unit id="tl_thememanager.accordion_legend">
-        <source>Accordion</source>
+      <trans-unit id="tl_thememanager.accordion_header">
+        <source>Extension: Accordion</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion_icon_legend">
+        <source>Icon</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion_icon_colors_legend">
+        <source>Icon (Colors)</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion_content_legend">
+        <source>Content</source>
       </trans-unit>
 
       <trans-unit id="tl_thememanager.accordion-icon.0">
@@ -83,12 +92,6 @@
       <trans-unit id="tl_thememanager.accordion-icon-border-style.1">
         <source>Here you can choose the border-style for the accordion toggle icon.</source>
       </trans-unit>
-      <trans-unit id="tl_thememanager.accordion-icon-border-color.0">
-        <source>$accordion-icon-border-color</source>
-      </trans-unit>
-      <trans-unit id="tl_thememanager.accordion-icon-border-color.1">
-        <source>Here you set the border-color for the accordion toggle icon.</source>
-      </trans-unit>
       <trans-unit id="tl_thememanager.accordion-icon-background.0">
         <source>$accordion-icon-background</source>
       </trans-unit>
@@ -100,6 +103,30 @@
       </trans-unit>
       <trans-unit id="tl_thememanager.accordion-icon-color.1">
         <source>Here you can set the text color for the accordion toggle icon.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color.0">
+        <source>$accordion-icon-border-color</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color.1">
+        <source>Here you set the border-color for the accordion toggle icon.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-background-invert.0">
+        <source>$accordion-icon-background-invert</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-background-invert.1">
+        <source>Here you can set the inverted background-color for the accordion toggle icon.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-color-invert.0">
+        <source>$accordion-icon-color-invert</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-color-invert.1">
+        <source>Here you can set the inverted text color for the accordion toggle icon.</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color-invert.0">
+        <source>$accordion-icon-border-color-invert</source>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color-invert.1">
+        <source>Here you can set the inverted border-color for the accordion toggle icon.</source>
       </trans-unit>
       <trans-unit id="tl_thememanager.accordion-content-margin.0">
         <source>$accordion-content-margin</source>

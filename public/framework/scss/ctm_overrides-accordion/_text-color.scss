@@ -1,0 +1,14 @@
+.color-text {
+
+  &-base {
+    --a-ico-clr:#{$accordion-icon-color};
+    --a-ico-bg:#{$accordion-icon-background};
+    --a-ico-clr-border:#{$accordion-icon-border-color};
+  }
+
+  &-inv {
+    --a-ico-clr:#{$accordion-icon-color-invert};
+    --a-ico-bg:#{$accordion-icon-background-invert};
+    --a-ico-clr-border:#{$accordion-icon-border-color-invert};
+  }
+}

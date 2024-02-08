@@ -1,9 +1,21 @@
 <?xml version="1.0" ?><xliff version="1.1">
   <file datatype="php" original="contao/languages/en/tl_thememanager.php" source-language="en" target-language="de">
     <body>
-      <trans-unit id="tl_thememanager.accordion_legend">
-        <source>Accordion</source>
-        <target>Akkordeon</target>
+      <trans-unit id="tl_thememanager.accordion_header">
+        <source>Extension: Accordion</source>
+        <target>Erweiterung: Akkordeon</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion_icon_legend">
+        <source>Icon</source>
+        <target>Icon</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion_icon_colors_legend">
+        <source>Icon (Colors)</source>
+        <target>Icon (Farben)</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion_content_legend">
+        <source>Content</source>
+        <target>Inhalt</target>
       </trans-unit>
 
       <trans-unit id="tl_thememanager.accordion-icon.0">
@@ -110,14 +122,6 @@
         <source>Here you can choose the border-style for the accordion toggle icon.</source>
         <target>Hier können Sie den Rahmen-Stil (border-style) für das Akkordeon-Umschaltsymbol einstellen.</target>
       </trans-unit>
-      <trans-unit id="tl_thememanager.accordion-icon-border-color.0">
-        <source>$accordion-icon-border-color</source>
-        <target>$accordion-icon-border-color</target>
-      </trans-unit>
-      <trans-unit id="tl_thememanager.accordion-icon-border-color.1">
-        <source>Here you set the border-color for the accordion toggle icon.</source>
-        <target>Hier können Sie die Rahmen-Farbe (border-color) für das Akkordeon-Umschaltsymbol einstellen.</target>
-      </trans-unit>
       <trans-unit id="tl_thememanager.accordion-icon-background.0">
         <source>$accordion-icon-background</source>
         <target>$accordion-icon-background</target>
@@ -133,6 +137,38 @@
       <trans-unit id="tl_thememanager.accordion-icon-color.1">
         <source>Here you can set the text color for the accordion toggle icon.</source>
         <target>Hier können Sie die Schriftfarbe für das Akkordeon-Umschaltsymbol einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color.0">
+        <source>$accordion-icon-border-color</source>
+        <target>$accordion-icon-border-color</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color.1">
+        <source>Here you set the border-color for the accordion toggle icon.</source>
+        <target>Hier können Sie die Rahmen-Farbe (border-color) für das Akkordeon-Umschaltsymbol einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-background-invert.0">
+        <source>$accordion-icon-background-invert</source>
+        <target>$accordion-icon-background-invert</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-background-invert.1">
+        <source>Here you can set the inverted background-color for the accordion toggle icon.</source>
+        <target>Hier können Sie die invertierte Hintergrundfarbe für das Akkordeon-Umschaltsymbol einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-color-invert.0">
+        <source>$accordion-icon-color-invert</source>
+        <target>$accordion-icon-color-invert</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-color-invert.1">
+        <source>Here you can set the inverted text color for the accordion toggle icon.</source>
+        <target>Hier können Sie die invertierte Schriftfarbe für das Akkordeon-Umschaltsymbol einstellen.</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color-invert.0">
+        <source>$accordion-icon-border-color-invert</source>
+        <target>$accordion-icon-border-color-invert</target>
+      </trans-unit>
+      <trans-unit id="tl_thememanager.accordion-icon-border-color-invert.1">
+        <source>Here you can set the inverted border-color for the accordion toggle icon.</source>
+        <target>Hier können Sie die invertierte Rahmen-Farbe (border-color) für das Akkordeon-Umschaltsymbol einstellen.</target>
       </trans-unit>
       <trans-unit id="tl_thememanager.accordion-content-margin.0">
         <source>$accordion-content-margin</source>

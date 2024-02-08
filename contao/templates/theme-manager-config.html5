@@ -1,7 +1,9 @@
 <?php return [
     'palettes' => [
         'default'  =>
-            '{accordion_legend:hide},accordion-icon,accordion-icon-active,accordion-icon-font-size,accordion-icon-font-family,accordion-icon-line-height,accordion-icon-font-weight,accordion-icon-width,accordion-icon-height,accordion-icon-offset,accordion-icon-side,accordion-icon-border-radius,accordion-icon-border-width,accordion-icon-border-style,accordion-icon-border-color,accordion-icon-background,accordion-icon-color,accordion-content-margin,accordion-content-padding;'
+            '{accordion_icon_legend:hide ctm-group palette-group[accordion_header]},accordion-icon,accordion-icon-active,accordion-icon-font-family,accordion-icon-font-size,accordion-icon-line-height,accordion-icon-font-weight,accordion-icon-width,accordion-icon-height,accordion-icon-offset,accordion-icon-side,accordion-icon-border-radius,accordion-icon-border-width,accordion-icon-border-style;' .
+            '{accordion_icon_colors_legend:hide ctm-group},accordion-icon-background,accordion-icon-color,accordion-icon-border-color,accordion-icon-background-invert,accordion-icon-color-invert,accordion-icon-border-color-invert;' .
+            '{accordion_content_legend:hide},accordion-content-margin,accordion-content-padding;'
     ],
     'fields'   => [
         // Accordion
@@ -9,39 +11,39 @@
             'default'                 => '"+"',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'"+"', 'maxlength'=>255, 'decodeEntities'=>true, 'tl_class'=>'w50 clr'],
+            'eval'                    => ['placeholder'=>'"+"', 'maxlength'=>255, 'decodeEntities'=>true, 'tl_class'=>'w33 clr'],
         ],
         'accordion-icon-active' => [
             'default'                 => '"−"',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-active'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'"−"', 'maxlength'=>255, 'decodeEntities'=>true, 'tl_class'=>'w50'],
-        ],
-        'accordion-icon-font-size' => [
-            'default'                 => 'a:2:{s:4:"unit";s:3:"rem";s:5:"value";s:5:"1.875";}',
-            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-font-size'],
-            'inputType'               => 'inputUnit',
-            'options'                 => $GLOBALS['CTM_CSS_UNITS'],
-            'eval'                    => ['placeholder'=>'1.875rem', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>255, 'tl_class'=>'w50 clr'],
+            'eval'                    => ['placeholder'=>'"−"', 'maxlength'=>255, 'decodeEntities'=>true, 'tl_class'=>'w33'],
         ],
         'accordion-icon-font-family' => [
             'default'                 => 'var(--font-family)',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-font-family'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'var(--font-family)', 'maxlength'=>255, 'preserveTags'=>true, 'tl_class'=>'w50'],
+            'eval'                    => ['placeholder'=>'var(--font-family)', 'maxlength'=>255, 'preserveTags'=>true, 'tl_class'=>'w33'],
         ],
 
+        'accordion-icon-font-size' => [
+            'default'                 => 'a:2:{s:4:"unit";s:3:"rem";s:5:"value";s:5:"1.875";}',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-font-size'],
+            'inputType'               => 'inputUnit',
+            'options'                 => $GLOBALS['CTM_CSS_UNITS'],
+            'eval'                    => ['placeholder'=>'1.875rem', 'includeBlankOption'=>true, 'rgxp'=>'digit_inherit', 'maxlength'=>255, 'tl_class'=>'w33 clr'],
+        ],
         'accordion-icon-line-height' => [
             'default'                 => '1',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-line-height'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'1', 'rgxp'=>'digit', 'maxlength'=>255, 'tl_class'=>'w50 clr'],
+            'eval'                    => ['placeholder'=>'1', 'rgxp'=>'digit', 'maxlength'=>255, 'tl_class'=>'w33'],
         ],
         'accordion-icon-font-weight' => [
             'default'                 => '$font-weight-regular',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-font-weight'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'$font-weight-regular', 'maxlength'=>255, 'tl_class'=>'w50'],
+            'eval'                    => ['placeholder'=>'$font-weight-regular', 'maxlength'=>255, 'tl_class'=>'w33'],
         ],
 
         'accordion-icon-width' => [
@@ -95,23 +97,41 @@
             'eval'                    => ['maxlength'=>32, 'tl_class'=>'w25', 'chosen'=>true],
         ],
 
-        'accordion-icon-border-color' => [
-            'default'                 => 'var(--clr-primary)',
-            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-border-color'],
-            'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard clr'],
-        ],
         'accordion-icon-background' => [
             'default'                 => 'transparent',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-background'],
             'inputType'               => 'text',
-            'eval'                    => ['placeholder'=>'transparent', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+            'eval'                    => ['placeholder'=>'transparent', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard clr'],
         ],
         'accordion-icon-color' => [
             'default'                 => 'var(--clr-primary)',
             'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-color'],
             'inputType'               => 'text',
             'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+        ],
+        'accordion-icon-border-color' => [
+            'default'                 => 'var(--clr-primary)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-border-color'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'var(--clr-primary)', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+        ],
+        'accordion-icon-background-invert' => [
+            'default'                 => 'transparent',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-background-invert'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'transparent', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard clr'],
+        ],
+        'accordion-icon-color-invert' => [
+            'default'                 => 'var(--text-clr-invert)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-color-invert'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'var(--text-clr-invert)', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
+        ],
+        'accordion-icon-border-color-invert' => [
+            'default'                 => 'var(--text-clr-invert)',
+            'label'                   => &$GLOBALS['TL_LANG']['tl_thememanager']['accordion-icon-border-color-invert'],
+            'inputType'               => 'text',
+            'eval'                    => ['placeholder'=>'var(--text-clr-invert)', 'maxlength'=>255, 'colorpicker'=>true, 'decodeEntities'=>true, 'tl_class'=>'w33 wizard'],
         ],
 
         'accordion-content-margin' => [
