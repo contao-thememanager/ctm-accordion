@@ -355,7 +355,7 @@
         <field title="alias">hlType</field>
         <field title="title">Headline</field>
         <field title="description">Here you can select the headline for this component title.</field>
-        <field title="cssClasses">a:6:{i:0;a:2:{s:3:"key";s:2:"h1";s:5:"value";s:2:"h1";}i:1;a:2:{s:3:"key";s:2:"h2";s:5:"value";s:2:"h2";}i:2;a:2:{s:3:"key";s:2:"h3";s:5:"value";s:2:"h3";}i:3;a:2:{s:3:"key";s:2:"h4";s:5:"value";s:2:"h4";}i:4;a:2:{s:3:"key";s:2:"h5";s:5:"value";s:2:"h5";}i:5;a:2:{s:3:"key";s:2:"h6";s:5:"value";s:2:"h6";}}</field>
+        <field title="cssClasses">a:7:{i:0;a:2:{s:3:"key";s:2:"h1";s:5:"value";s:2:"h1";}i:1;a:2:{s:3:"key";s:2:"h2";s:5:"value";s:2:"h2";}i:2;a:2:{s:3:"key";s:2:"h3";s:5:"value";s:2:"h3";}i:3;a:2:{s:3:"key";s:2:"h4";s:5:"value";s:2:"h4";}i:4;a:2:{s:3:"key";s:2:"h5";s:5:"value";s:2:"h5";}i:5;a:2:{s:3:"key";s:2:"h6";s:5:"value";s:2:"h6";}i:6;a:2:{s:3:"key";s:6:"strong";s:5:"value";s:6:"strong";}}</field>
         <field title="cssClass">separator</field>
         <field title="chosen">1</field>
         <field title="blankOption">1</field>
