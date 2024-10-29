@@ -55,6 +55,7 @@ export default class Accordion
         this.options = Object.assign({}, this.options, options)
         this.options.animated = this.options.duration > 0
 
+        this._createAccButton()
         this.detectAccordion()
 
         let resizeTimeout = {}
@@ -63,6 +64,21 @@ export default class Accordion
             clearTimeout(resizeTimeout);
             resizeTimeout = setTimeout(() => this.update(), 100);
         })
+    }
+
+    _createAccButton()
+    {
+        this.btn_ = document.createElement('button');
+        this.btn_.classList.add('acc-handle-text');
+    }
+
+    _addAccButton(node, state)
+    {
+        const btn = this.btn_.cloneNode()
+        btn.textContent = node.textContent
+        btn.ariaExpanded = !state ? 'true' : 'false'
+
+        return btn
     }
 
     /**
@@ -121,10 +137,13 @@ export default class Accordion
 
                 // Check previous state; Should one be given, take this one, because then it is an update
                 const isCollapsed = typeof content?.accordion?.prevCollapsed !== 'undefined' ? content.accordion.prevCollapsed : collapsed
+                const handleText = acc.querySelector('.acc-handle-text')
 
                 // Return scheme
                 return {
                     handle: acc.querySelector('.toggler'),
+                    handleText: handleText,
+                    toggle: this._addAccButton(handleText, isCollapsed),
                     content: content,
                     collapsed: isCollapsed
                 }
@@ -191,10 +210,13 @@ export default class Accordion
 
                     // Check previous state; Should one be given, take this one, because then it is an update
                     const isCollapsed = typeof content?.accordion?.prevCollapsed !== 'undefined' ? content.accordion.prevCollapsed : this.isCollapsed(mode, index)
+                    const handleText = part.querySelector('.acc-handle-text')
 
                     // Return scheme
                     return {
                         handle: part.querySelector('.toggler'),
+                        handleText: handleText,
+                        toggle: this._addAccButton(handleText, isCollapsed),
                         content: content,
                         collapsed: isCollapsed
                     }
@@ -234,6 +256,9 @@ export default class Accordion
             // Set default css classes
             part.handle.classList.add(this.options.cssClasses.handle)
             part.content.classList.add(this.options.cssClasses.content)
+
+            // Convert the handle text to buttons
+            part.handle.replaceChildren(part.toggle)
 
             // Set default state
             this.collapse(part, part.collapsed, false)
@@ -275,6 +300,9 @@ export default class Accordion
                 // Remove height
                 part.content.style.height = ''
 
+                // We never want this as the destroy function is called on resize
+                //part.handle.replaceChildren(part.handleText)
+
                 // Set old state
                 part.content.accordion.prevCollapsed = part.content.accordion.collapsed
 
@@ -315,6 +343,9 @@ export default class Accordion
         // Set css classes
         part.handle.classList.toggle(this.options.cssClasses.open, !collapsed)
         part.content.classList.toggle(this.options.cssClasses.open, !collapsed)
+
+        // Set aria
+        part.toggle.ariaExpanded = !collapsed ? 'true' : 'false'
 
         if(animated && this.options.animated)
             this.animate(part, collapsed)

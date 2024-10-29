@@ -4,7 +4,7 @@
   align-items: center;
 
   font-family:    $accordion-icon-font-family;
-  content:        var(--a-ico,'');
+  content:        var(--a-ico,none);
   line-height:    $accordion-icon-line-height;
 
   font-size:      $accordion-icon-font-size;
@@ -44,23 +44,43 @@
     --a-ico:'#{$accordion-icon}';
     &.open {--a-ico:'#{$accordion-icon-active}';}
 
-    display: flex;
-    align-items: flex-start;
-    column-gap: $accordion-icon-offset;
-
     margin-bottom: 0;
-    cursor: pointer;
-
-    @if $accordion-icon-side == left {
-      &:before { @include accordion-handle-icon;}
-    }
-    @else if $accordion-icon-side == right {
-      &:after { @include accordion-handle-icon;
-        margin-left: auto;
-      }
-    }
 
     // Reset margin from any element within handle
     * { margin-bottom: 0; }
+  }
+}
+
+.acc-handle-text {
+  // Button resets
+  --btn-1-bg: transparent;
+  --btn-1-bg-hvr: transparent;
+  --btn-1-clr: var(--text-clr-base);
+  --btn-1-clr-hvr: var(--text-clr-base);
+  --btn-tf: inherit;
+  --btn-tf-hvr: inherit;
+  --btn-td: inherit;
+  --btn-td-hvr: inherit;
+  --btn-bdr: none;
+  --btn-bdr-r: revert;
+  --btn-p-2: 0;
+
+  font: inherit;
+
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  column-gap: $accordion-icon-offset;
+
+  cursor: pointer;
+  overflow: hidden;
+
+  @if $accordion-icon-side == left {
+    &:before { @include accordion-handle-icon;}
+  }
+  @else if $accordion-icon-side == right {
+    &:after { @include accordion-handle-icon;
+      margin-left: auto;
+    }
   }
 }

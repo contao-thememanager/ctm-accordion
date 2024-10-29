@@ -16,7 +16,7 @@
 
   <div class="inside<?= $insideClasses ?>">
     <<?=$hlType?> class="<?= $this->toggler ?><?= $hlClasses ?>"<?php if ($this->headlineStyle): ?> style="<?= $this->headlineStyle ?>"<?php endif; ?>>
-      <?= $this->headline ?>
+      <span class="acc-handle-text"><?= $this->headline ?></span>
     </<?=$hlType?>>
 
     <div class="<?= $this->accordion ?> grid<?= $gridClasses ?> acc-content">
