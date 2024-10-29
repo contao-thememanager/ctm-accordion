@@ -53,7 +53,9 @@
             <div class="faq layout_page item">
 
               <div class="inside">
-                <<?= $hlItem ?> class="toggler<?=$sm->prepare('eHeadline',['hl2Style'])->format(' %s')?>" id="<?= $faq->alias ?>"><?= $faq->question ?></<?= $hlItem ?>>
+                <<?= $hlItem ?> class="toggler<?=$sm->prepare('eHeadline',['hl2Style'])->format(' %s')?>" id="<?= $faq->alias ?>">
+                  <span class="acc-handle-text"><?= $faq->question ?></span>
+                </<?= $hlItem ?>>
 
                 <div class="content acc-content">
                   <div class="inside">
