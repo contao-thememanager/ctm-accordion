@@ -264,7 +264,9 @@ export default class Accordion
             this.collapse(part, part.collapsed, false)
 
             // Set click event
-            part.handle.addEventListener('click', part.handle.fn = () => {
+            part.handle.addEventListener('click', part.handle.fn = (event) => {
+                event.preventDefault();
+                
                 // Save state before close all other
                 const state = !part.content.accordion.collapsed
 
