@@ -69,6 +69,7 @@ export default class Accordion
     _createAccButton()
     {
         this.btn_ = document.createElement('button');
+        this.btn_.type = 'button';
         this.btn_.classList.add('acc-handle-text');
     }
 
@@ -265,7 +266,6 @@ export default class Accordion
 
             // Set click event
             part.handle.addEventListener('click', part.handle.fn = (event) => {
-                event.preventDefault();
                 
                 // Save state before close all other
                 const state = !part.content.accordion.collapsed
