@@ -69,6 +69,7 @@ export default class Accordion
     _createAccButton()
     {
         this.btn_ = document.createElement('button');
+        this.btn_.type = 'button';
         this.btn_.classList.add('acc-handle-text');
     }
 
